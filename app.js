@@ -16,7 +16,7 @@ let showtime = () => {
         days = "Monday"
     }
     else if(days == 2) {
-        days = "Tuesay"
+        days = "Tuesday"
     }
     else if(days == 3) {
         days = "Wednesday"
@@ -30,12 +30,12 @@ let showtime = () => {
     else if(days == 6) {
         days = "Saturday"
     }
-    else if(days == 7) {
+    else if(days == 0) {
         days = "Sunday"
     }
 
     let date1 = time.getDay();
-    let month = time.getMonth();
+    let month = time.getMonth() + 1;
     let year = time.getFullYear();
 
     date1 = date1 < 10 ? "0"+date1 : date1;
