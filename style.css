@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/225/154/non_2x/black-low-poly-geometric-background-vector.jpg);
+    background-size: cover;
+}
+
+.firstbox {
+    height: 15vh;
+    width: 100vw;
+    font-size: 3vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondbox {
+    height: 40vh;
+    width: 100vw;
+    font-size: 17vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.thirdbox {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+.fourbox {
+    padding: 25px;
+    height: 10vh;
+    width: 100wh;
+}
+
+@keyframes myan1 {
+    from {
+
+        color: blueviolet;
+    }
+
+    to {
+
+        color: aquamarine;
+    }
+}
+
+#author {
+    height: 10vh;
+    width: 100wh;
+    font-size: 2vw;
+    color: white;
+    animation: myan1 5s infinite;
+
+}
+
+.highlight:hover {
+    font-weight: bold;
+    color: yellow;
+}
+
+#author:hover {
+    color: yellow;
+}
+
